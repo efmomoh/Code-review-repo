@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  height: auto;
+}
+
+.top-nav {
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  background-color: aqua;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.top-left {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.center {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.top-right {
+  display: flex;
+  float: right;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+.top-left li {
+  margin-inline: 20px;
+}
+
+.my-tube {
+  display: flex;
+  gap: 10px;
+}
+
+.fa-bars {
+  width: 50px;
+  font-size: 40px;
+  border: 0;
+}
+
+.fa-youtube {
+  width: 50px;
+  font-size: 35px;
+  border: 0;
+  color: #f50000;
+}
+
+.yt-logo {
+  width: 125px;
+  font-size: 30px;
+  border: 0;
+}
+
+.center li {
+  margin-inline: 20px;
+  margin-left: -10px;
+  margin-right: -5px;
+}
+
+.form li {
+  display: flex;
+}
+
+.type-text {
+  background-color: white;
+  width: 400px;
+  border: 0;
+  border-bottom-left-radius: 60px;
+  border-top-left-radius: 60px;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.form {
+  display: flex;
+  height: 50px;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+  background: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+
+.fa-magnifying-glass {
+  font-size: 35px;
+  background: #efeff7;
+  margin-left: 10px;
+  color: #1b1c1d;
+}
+
+.mic-icon {
+  margin-left: 20px;
+  width: 50px;
+  margin-top: 5px;
+}
+
+.fa-microphone {
+  font-size: 35px;
+}
+
+.top-right li {
+  margin-inline: 10px;
+}
+
+.fa-video {
+  font-size: 40px;
+  color: blue;
+}
+
+.fa-bell {
+  font-size: 40px;
+  color: blue;
+}
+
+.fa-circle-user {
+  font-size: 40px;
+  color: blue;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+
+.left-bar-video {
+  height: 58vh;
+  width: 60%;
+  margin: 16px;
+  margin-left: 50px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.right-bar-header {
+  display: flex;
+  list-style-type: none;
+  width: 40%;
+  height: auto;
+  margin-left: -70px;
+}
+
+.main-video {
+  list-style-type: none;
+}
+
+.right-bar-header li {
+  margin-inline: 10px;
+}
+
+.right-scroll-bar {
+  display: flex;
+  flex-direction: column;
+  margin-top: -350px;
+  margin-left: 735px;
+}
+
+.right-scroll-bar ul {
+  list-style-type: none;
+  margin-top: 18px;
+}
+
+.right-scroll-bar ul li {
+  margin-bottom: 10px;
+}
+
+.right-scroll-bar ul li iframe {
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+}
